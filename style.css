@@ -1,0 +1,23 @@
+.navbar div {
+    width: 100%;
+}
+
+.navbar-brand a {
+    text-align: center;
+    color:rgb(82, 235, 82);
+    margin-left: 1rem;
+    text-decoration: none;
+
+}
+.img__principal{
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+}
