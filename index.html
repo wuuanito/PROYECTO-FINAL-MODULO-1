@@ -1,55 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Rick and Morty</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header>
-      <h1 class="text-center">RICK AND MORTY</h1>
-      <nav class="navbar bg-dark">
-        <div class="navbar-brand col text-center">
-          <a href="#">Inicio</a>
-          <a href="/personajes.html">Personajes</a>
-          <a href="/personajes.html">Episodios</a>
-          <a href="/personajes.html">Localizaciones</a>
-          <a href="/personajes.html">Contacto</a>
-          <a href="/personajes.html">Aviso de Privacidad y Cookies</a>
-        </div>
-      </nav>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de fans de Rick and Morty con momentos icónicos de la saga">
+    <meta name="keywords" content="Rick and Morty, serie animada, portal, ciencia ficción">
+    
+    <title>Rick and Morty - Página Principal</title>
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header class="mb-4">
+        <h1 class="text-center py-3">RICK AND MORTY</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/personajesPage/personajes.html">Personajes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/episodiosPage/episodios.html">Episodios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/localizacionesPage/localizaciones.html">Localizaciones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contactoPage/contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/avisoPrivPage/aviso.html">Aviso de Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main>
-      <p class="lead text-center">
-        Bienvenidos a la pagina de fans de Rick and Morty
-      </p>
-      <p class="text-center">
-        En esta pagina os mostraremos varios momentos iconicos de la saga
-      </p>
-      <div class="img__principal">
-        <img
-          src="./assets/rickmorty.jpg"
-          alt="imagen_rick
-        _morty"
-        />
-      </div>
 
+    <!-- Main Content -->
+    <main class="container flex-grow-1">
+        <section class="text-center mb-5">
+            <p class="lead mb-3">
+                Bienvenidos a la página de fans de Rick and Morty
+            </p>
+            <p class="mb-4">
+                En esta página os mostraremos varios momentos icónicos de la saga
+            </p>
+            
+            <div class="img__principal">
+                <img src="./assets/rickmorty.jpg" 
+                     alt="Rick y Morty en una de sus aventuras"
+                     class="img-fluid shadow-sm rounded">
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3 mt-4">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2025 Rick y Morty</p>
+            <a href="./pages/avisoPrivPage/avisoLegal.html" class="text-light text-decoration-none">Aviso Legal</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
     <script type="module" src="./dist/landingPage.js"></script>
-  </body>
-  <footer>
-    <a href="./avisoLegal.html" > Aviso legal 2025 Rick y Morty </a>
-  </footer>
+</body>
 </html>
