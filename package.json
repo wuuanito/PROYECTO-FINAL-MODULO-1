@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-final-modulo-1",
+  "version": "1.0.0",
+  "description": "El proyecto tiene como objetivo reforzar y evaluar los conocimientos adquiridos en los temas 1,2,3,4 correspondientes al contenido de HTML,CSS,JS y TS correspondientemente. Para la realización del trabajo se tendrá un periodo de **2 semanas** desde el día de inicio (que dependerá de la modalidad del alumno)  ### Metodología  El trabajo se tendrá que realizar en **grupos de 3 personas o de forma individual**, Los componentes del grupo tienen que coordinarse para poder crear un repositorio en **Github**, plataforma en la cual se realizará la posterior entrega y se podrá evaluar la participación y calidad de las aportaciones de cada uno de los miembros del grupo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuuanito/PROYECTO-FINAL-MODULO-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuuanito/PROYECTO-FINAL-MODULO-1/issues"
+  },
+  "homepage": "https://github.com/wuuanito/PROYECTO-FINAL-MODULO-1#readme"
+}
